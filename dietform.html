@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form1
+        </title>
+    </head>
+    <style>
+        *{
+            background-color: beige;
+            color: rgb(16, 3, 83);
+            text-align: center;
+            font-size: 30px;
+        }
+        .heading{
+            font-size: 50px;
+            background-color: rgb(16, 3, 83);
+            color: white;
+            padding: 20px;
+        }
+        select{
+            width: 250px;
+        }
+        button{
+            color:white;
+            background-color: rgb(16, 3, 83);
+            padding: 10px;
+        }
+        select{
+            background-color: white;
+            color: rgb(16, 3, 83);
+            padding: 10px;
+            font-size: 15px;
+        }
+    </style>
+    <body>
+        <p class="heading">Get Your Customized Diet Plan:<p>
+        <form onsubmit="event.preventDefault(); redirectTo ();">
+            <label for="formInput1">&nbsp &nbsp &nbsp Height:</label>
+            <select name="age" id="formInput1">
+                <option value="1"></option>
+                <option value="2">Below 5foot</option>
+                <option value="3">5foot- 5foot 4inch</option>
+                <option value="4">5foot 5inch - 5foot 8inch</option>
+                <option value="5">5foot 9inch -6foot</option>
+                <option value="6">Above 6foot</option>
+                
+            </select>
+            <br><br>
+            <label for="formInput2">&nbsp &nbsp &nbsp Weight:</label>
+            <select name="age" id="formInput2">
+                <option value="1"></option>
+                <option value="2">40-50 KG</option>
+                <option value="3">51-60 KG</option>
+                <option value="4">61-70 KG</option>
+                <option value="5">66-72 KG</option>
+                <option value="6">73-80 KG</option>
+                <option value="7">81-87 KG</option>
+                <option value="8">88-95 KG</option>
+                <option value="9">96-102 KG</option>
+                <option value="10">103-110 KG</option>
+                <option value="11">111-120 KG</option>
+                <option value="12">121-130 KG</option>
+                <option value="13">131-150 KG</option>
+                <option value="14">above 150 KG</option>
+    
+    
+            </select>
+            <br><br>
+            <label for="formInput3">Age Group:</label>
+            <select name="age" id="formInput3">
+                <option value="1"></option>
+                <option value="2">0-10 years</option>
+                <option value="3">11-25 years</option>
+                <option value="4">26-40 years</option>
+                <option value="5">41-65 years</option>
+                <option value="6">Above 65 years</option>
+                
+            </select>
+            <br><br>&nbsp &nbsp &nbsp
+            <button type="submit">Create</button>
+        </form>
+    </body>
+</html>
